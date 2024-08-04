@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>MyGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="menu">
+        <h1>MyGame</h1>
+        <button id="startButton">Start Game</button>
+        <button id="instructionsButton">Instructions</button>
+        <button id="quitButton">Quit</button>
+        <div id="instructions" style="display: none;">
+            <p>Use the left and right arrow keys to move paddle. Hit the ball with the paddle to increase your score and speed</p>
+            <button id="backButton">Back</button>
+        </div>
+    </div>
+    <canvas id="myCanvas" width="480" height="320" style="display: none;"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
